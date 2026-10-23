@@ -1,0 +1,11 @@
+# Program perkenalan interaktif
+print("=== Program Perkenalan Interaktif ===")
+nama = input("Siapa nama kamu? ")
+nim = input("Berapa nim kamu? ")
+kota = input("kota asal kamu? ")
+tahun_masuk = (input("tahun berapa kamu masuk?"))
+print("halo, perkenalkan nama saya", nama)
+print("nim saya adalah", nim)
+print("saya berasal dari", kota)
+print("saya masuk pada tahun", tahun_masuk)
+print("sekarang sudah", 2026 - tahun_masuk, "tahun sejak")

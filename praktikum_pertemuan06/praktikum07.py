@@ -1,0 +1,6 @@
+nilai_kelas = [[80, 90], [75, 85], [88, 92]]
+print(nilai_kelas[0] [0])
+print(nilai_kelas[2] [1])
+for  i, data in enumerate(nilai_kelas):
+    rata_rata = sum(data) / len(data)
+    print(f"Mahasiswa {i + 1}: {rata_rata}")
